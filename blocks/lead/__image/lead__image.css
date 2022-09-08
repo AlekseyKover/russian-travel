@@ -1,0 +1,38 @@
+.lead__image {
+   margin-bottom: 8px;
+
+
+}
+
+@media screen and (max-width:1050px) {
+   .lead__image {
+      max-width: 928px;
+   }
+
+}
+
+@media screen and (max-width:938px) {
+   .lead__image {
+      max-width: 768px;
+   }
+
+}
+
+@media screen and (max-width:798px) {
+   .lead__image {
+      max-width: 550px;
+   }
+}
+
+@media screen and (max-width:580px) {
+
+   .lead__image {
+      max-width: 420px;
+   }
+}
+
+@media screen and (max-width:470px) {
+   .lead__image {
+      max-width: 320px;
+   }
+}

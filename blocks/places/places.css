@@ -1,0 +1,33 @@
+.places {
+    max-width: 984px;
+    margin: 92px auto 92px auto;
+    display: grid;
+    grid-template-columns:minmax(min-content,max-content);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+@media screen and (max-width:990px) {
+    .places {
+        max-width: 928px;
+    }
+
+}
+@media screen and (max-width:850px) {
+    .places {
+        
+        max-width: 720px;
+    }
+
+}
+@media screen and (max-width:664px) {
+    .places{
+        max-width: 320px;
+        grid-template-columns: min-content;
+        grid-template-rows: repeat(5,min-content);
+        margin-bottom: 50px;
+    }
+    
+
+
+    
+}

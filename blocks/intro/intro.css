@@ -1,0 +1,30 @@
+.intro {
+    text-align: left;
+    max-width: 690px;
+    align-items: center;
+    margin: 0 442px 92px 148px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, min-content);
+}
+
+@media screen and (max-width:1050px) {
+    .intro {
+        margin: 0 286px 92px 48px;
+    }
+
+}
+
+@media screen and (max-width:890px) {
+    .intro {
+        margin: 0 auto 88px auto;
+        max-width: 720px;
+    }
+
+}
+@media screen and (max-width:450px) {
+    .intro{
+        margin: 0 auto 64px auto;
+    }
+    
+}

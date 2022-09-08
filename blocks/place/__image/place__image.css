@@ -1,0 +1,28 @@
+.place__image {
+    display: grid;
+    grid-row-start: span 2;
+    grid-row-end: 4;
+
+}
+
+@media screen and (max-width:1050px) {
+    .place__image {
+        max-width: 440px;
+    }
+}
+
+@media screen and (max-width:982px) {
+    .place__image {
+        max-width: 340px;
+        
+    }
+
+}
+@media screen and (max-width:664px) {
+    .place__image{
+        grid-area: image;
+        max-width: 320px;
+        margin-bottom: 32px;
+    }
+    
+}
