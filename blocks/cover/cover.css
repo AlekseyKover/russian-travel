@@ -1,5 +1,5 @@
 .cover {
-   aspect-ratio: 16/10;
+    aspect-ratio: 16/10;
 
     max-width: 1184px;
     display: flex;
@@ -14,10 +14,6 @@
     .cover {
         max-width: 1024px;
         min-height: 640px;
-
-
-
-
     }
 }
 
@@ -25,10 +21,6 @@
     .cover {
         max-width: 768px;
         min-height: 480px;
-
-
-
-
     }
 }
 
@@ -39,11 +31,11 @@
     }
 
 }
+
 @media screen and (max-width: 567px) {
-    .cover{
-       
+    .cover {
         max-width: 320px;
         min-height: 200px;
     }
-    
+
 }
