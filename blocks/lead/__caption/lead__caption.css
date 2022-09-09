@@ -5,7 +5,7 @@
     font-weight: 400;
     font-size: 10px;
     line-height: 14px;
-    /* identical to box height, or 140% */
+   
     letter-spacing: 1.5px;
     text-transform: uppercase;
     padding: 0;
@@ -14,9 +14,8 @@
     
     
     }
-/**
-@media screen and (min-width:798px) {
-    .lead__caption {
-        margin-bottom: 64px;
-    }
-}
+
+
+
+
+
