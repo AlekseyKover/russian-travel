@@ -25,20 +25,3 @@
 
     }
 }
-
-/*
-@media screen and (max-width:777px) {
-    .cover {
-        max-width: 520px;
-        min-height: 320px;
-    }
-
-}
-
-@media screen and (max-width: 567px) {
-    .cover {
-        max-width: 320px;
-        min-height: 200px;
-    }
-
-}
