@@ -3,45 +3,18 @@
     font-style:  normal;
     font-weight: 100;
     font-display: swap;
-    src: url("../../blocks/fonts/Inter-Regular.woff2") format("woff2"),
-         url("../../blocks/fonts/Inter-Regular.woff") format("woff");
-}
-
-.page {
-    margin: 0 auto;
-    max-width: 1280px;
-    background-color: #2A2C2F;
-    padding-top: 28px;
-    padding-bottom: 24px;
-   
-}
-
-/*
-@media screen and (max-width:1280px) {
-    .page {
-        max-width: 1280px;
-    }
-
-}
-
-@media screen and (max-width:1053px) {
-    .page {
-        width: 1024px;
+    src: url("../../vendor/fonts/Inter-Regular.woff2") format("woff2"),
+         url("../../vendor/fonts/Inter-Regular.woff") format("woff"),
+         url("../../vendor/fonts/Inter-Black.woff") format("woff"),
+         url("../../vendor/fonts/Inter-Black.woff2") format("woff2"),
+         url("../../vendor/fonts/Inter-Bold.woff") format("woff"),
+         url("../../vendor/fonts/Inter-Bold.woff2") format("woff2"),
         
-    }
+}      
 
+
+.page{
+    font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #2A2C2F;
+    min-width: 320px;
 }
-
-@media screen and (max-width:550px) {
-    .page {
-        padding-top: 16px;
-    }
-
-}*/
-
-
-
-
-
-
-

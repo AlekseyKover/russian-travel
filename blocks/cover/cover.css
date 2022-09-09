@@ -1,8 +1,8 @@
 .cover {
-    aspect-ratio: 16/10;
-
+    width: 100%;
+    text-align: center;
     max-width: 1184px;
-    display: flex;
+    background-size: cover;
     margin: 0 auto;
     background-position: center;
     background-image: url(../../images/overlay__background.jpg);
@@ -10,20 +10,23 @@
     background-color: #2A2C2F;
 }
 
-@media screen and (max-width:1186px) {
+@media screen and (max-width:1280px) {
     .cover {
-        max-width: 1024px;
-        min-height: 640px;
+        margin: 0 48px;
+
     }
 }
 
-@media screen and (max-width:1036px) {
+@media screen and (max-width:1024px) {
     .cover {
-        max-width: 768px;
-        min-height: 480px;
+        width: 100%;
+        margin: 0;
+        
+
     }
 }
 
+/*
 @media screen and (max-width:777px) {
     .cover {
         max-width: 520px;

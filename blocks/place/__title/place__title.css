@@ -13,7 +13,7 @@
 }
 
 
-@media screen and (max-width:982px) {
+@media screen and (max-width:1024px) {
     .place__title {
         max-width: 340px;
         justify-items: end;
@@ -24,9 +24,9 @@
 
 }
 
-@media screen and (max-width:664px) {
-   .place__title {
-    grid-area: header;
+@media screen and (max-width:670px) {
+    .place__title {
+        grid-area: header;
         margin-bottom: 32px;
     }
 

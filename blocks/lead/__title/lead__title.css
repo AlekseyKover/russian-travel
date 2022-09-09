@@ -1,18 +1,18 @@
 .lead__title {
-    margin: 0 auto 32px auto;
-    font-family: 'Inter';
+    margin: 0 0 40px 0;
     font-style: normal;
     font-weight: 900;
     font-size: 96px;
     line-height: 100px;
     text-align: center;
     color: #FFFFFF;
-
+    grid-area: "header";
 }
 
-@media screen and (max-width:798px) {
+@media screen and (max-width:768px) {
     .lead__title {
-        margin: 0 auto 16px auto;
+        max-width: 288px;
+        margin: 0 0 16px 0;
         font-size: 40px;
         line-height: 44px;
     }

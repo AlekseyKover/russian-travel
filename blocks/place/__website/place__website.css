@@ -14,7 +14,7 @@
     }
     
 }
-@media screen and (max-width:664px) {
+@media screen and (max-width:670px) {
     .place__website{
         grid-area: website;
         margin-bottom: 32px;

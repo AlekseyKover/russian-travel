@@ -2,17 +2,17 @@
     aspect-ratio: 16/10;
     display: flex;
     background: rgba(42, 44, 47, 0.3);
-    min-width: 1184px;
-    min-height: 740px;
     flex-direction: column;
     transition: all .3s;
     text-decoration: none;
+    width: 100%;
+    text-align: center;
 }
 
 .cover__overlay:hover {
     background-color: rgba(42, 44, 47, .8);
 
-}
+}/*
 @media screen and (max-width:1186px) {
     .cover__overlay{
         min-width: 1024px;
