@@ -4,7 +4,7 @@
     
    
    
-    margin-bottom: 48px;
+    margin-bottom: 0;
 }
 @media screen and (max-width:934px) {
     .place__website{
@@ -14,8 +14,9 @@
     }
     
 }
-@media screen and (max-width:670px) {
+@media screen and (max-width:870px) {
     .place__website{
+        margin-left: 16px;
         grid-area: website;
         margin-bottom: 32px;
     }

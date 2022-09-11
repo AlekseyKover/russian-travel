@@ -1,6 +1,6 @@
 .place__paragraph {
-    margin: 0 0 26px 0;
-   
+    margin: 0;
+    row-gap: 26px;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -9,19 +9,20 @@
     align-self: start;
 }
 .place__paragraph:last-child{
-    margin-bottom: 0;
+    row-gap: 0;
 }
 
-/*
-@media screen and (max-width:940px) {
+
+@media screen and (max-width:870px) {
     .place__paragraph {
+        margin-left: 16px;
         margin-bottom: 25px;
         font-size: 14px;
     }
     .place__paragraph:last-child{
         margin-bottom: 0;
     }
-}*/
+}
 @media screen and (max-width:670px) {
     .place__paragraph{
        
