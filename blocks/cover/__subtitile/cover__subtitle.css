@@ -1,5 +1,4 @@
 .cover__subtitle {
-    /*margin: 0 412px 245px 412px;*/
     margin: 0;
     max-width: 360px;
     font-style: normal;
@@ -8,6 +7,14 @@
     line-height: 22px;
     text-align: center;
     color: #FFFFFF;
+}
+
+@media screen and (max-width:700px) {
+    .cover__subtitle {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
 }
 
 
@@ -19,14 +26,12 @@
 
 
 
-
-
 @media screen and (max-width:678px) {
-    .cover__subtitle{
-        
-      
+    .cover__subtitle {
+
+
         font-size: 14px;
         line-height: 16px;
     }
-    
+
 }

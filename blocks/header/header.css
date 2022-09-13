@@ -12,29 +12,36 @@
 @media screen and (max-width:1050px) {
 
     .header {
-       padding-bottom: 48px;
+        padding-bottom: 48px;
     }
 }
 
 @media screen and (max-width:1024px) {
 
     .header {
-        width: 90%;
-        padding: 28px 24px 48px 24px;
+        max-width: 928px;
+        padding: 28px 48px 48px 48px;
     }
 }
 
-@media screen and (max-width:802px) {
-    
+@media screen and (max-width:1023px) {
+
+    .header {
+        padding: 28px 24px 48px 24px;
+
+    }
+}
+
+@media screen and (max-width:420px) {
+
     .header {
         padding: 16px 16px 48px 16px;
-        
+       max-width: 288px;
+
     }
 }
-@media screen and (max-width:320px) {
-    
-    .header {
-        max-width: 288px;
-        
-    }
-}
+
+
+
+
+

@@ -2,28 +2,13 @@
     display: grid;
     grid-row-start: span 2;
     grid-row-end: 4;
-   width: 100%;
-  
-
+    width: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width:870px) {
-    .place__image{
+@media screen and (max-width:767px) {
+    .place__image {
         grid-area: image;
         margin-bottom: 32px;
     }
-    
+
 }
