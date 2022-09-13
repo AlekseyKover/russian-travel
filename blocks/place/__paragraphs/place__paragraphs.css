@@ -22,13 +22,12 @@
     .place__paragraph:last-child{
         margin-bottom: 0;
     }
-}/*
-@media screen and (max-width:670px) {
-    .place__paragraph{
-       
-        max-width: 320px;
-        
-        row-gap: 25px;
-    }
-    
 }
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
