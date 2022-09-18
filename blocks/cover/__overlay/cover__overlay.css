@@ -1,4 +1,6 @@
 .cover__overlay {
+    justify-content: center;
+    row-gap: 32px;
     max-width: 1184px;
     aspect-ratio: 16/10;
     display: flex;
@@ -15,38 +17,16 @@
 
 }
 
-@media screen and (max-width:320px) {
-    .cover__overlay{
-        max-width: 320px;
-        max-height: 200px;
+@media screen and (max-width:700px) {
+    .cover__overlay {
+        row-gap: 16px;
     }
-    
+
 }
 
+@media screen and (max-width:320px) {
+    .cover__overlay {
+        max-width: 320px;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}

@@ -19,7 +19,7 @@
         max-width: 288px;
         
     }
-    .place__paragraph:last-child{
+    .place__paragraphs:last-child{
         margin-bottom: 0;
     }
 }

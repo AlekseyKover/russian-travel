@@ -1,22 +1,13 @@
-.footer__links{
-    
+.footer__links {
     gap: 18px;
     display: flex;
-    
-    
-    
 }
+
 @media screen and (max-width:730px) {
-    .footer__links{
+    .footer__links {
         row-gap: 32px;
-         padding: 0;
-         flex-direction: column;
-        
-        
-        
+        padding: 0;
+        flex-direction: column;
     }
-    .footer__links:last-child{
-       
-    }
-    
+
 }
