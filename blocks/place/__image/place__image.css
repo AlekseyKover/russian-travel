@@ -1,5 +1,4 @@
 .place__image {
-    display: grid;
     grid-row-start: span 2;
     grid-row-end: 4;
     width: 100%;

@@ -1,4 +1,4 @@
-.table {
+.intro__table {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -7,5 +7,4 @@
     font-size: 12px;
     line-height: 18px;
     color: #FFFFFF;
-    grid-area: "list";
 }
