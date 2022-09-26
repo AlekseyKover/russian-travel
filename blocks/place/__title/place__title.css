@@ -1,13 +1,13 @@
 .place__title {
-    margin-top: 0;
-    margin-bottom: 48px;
+    margin: 0;
     max-width: 460px;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
     color: #FFFFFF;
-    align-self: flex-end;
+    align-self: flex-start;
+    margin-bottom: 48px;
 }
 
 @media screen and (max-width:1023px) {

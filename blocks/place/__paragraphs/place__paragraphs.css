@@ -2,32 +2,23 @@
     display: flex;
     flex-direction: column;
     gap: 26px;
-
-
-
 }
+
 @media screen and (max-width:1024px) {
-    .place__paragraphs{
+    .place__paragraphs {
         gap: 25px;
     }
-    
+
 }
 
 @media screen and (max-width:460px) {
     .place__paragraphs {
         margin: 0 16px 0 16px;
         max-width: 288px;
-        
+
     }
-    .place__paragraphs:last-child{
+
+    .place__paragraphs:last-child {
         margin-bottom: 0;
     }
 }
-
- 
- 
- 
- 
- 
- 
- 
