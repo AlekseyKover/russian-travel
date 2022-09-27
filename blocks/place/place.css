@@ -23,20 +23,12 @@
 @media screen and (max-width:1024px) {
     .place {
         grid-template-columns: minmax(340px, 440px) minmax(352px, 456px);
-
-    }
-
-}
-
-@media screen and (max-width:768px) {
-    .place {
         column-gap: 28px;
-        grid-template-columns: minmax(340px, 1fr) minmax(352px, 1fr);
         margin-bottom: 73px;
+
     }
 
 }
-
 
 @media screen and (max-width:767px) {
     .place {
@@ -48,9 +40,5 @@
             "text";
         grid-template-columns: 1fr;
         margin-bottom: 50px;
-    }
-
-    .place:last-child {
-        margin-bottom: 0;
     }
 }

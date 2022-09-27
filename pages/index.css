@@ -9,14 +9,14 @@
 @import url(../blocks/header/__link/_active/header__link_active.css);
 /*Блок lead*/
 @import url(../blocks/lead/lead.css);
-@import url(../blocks/lead/__figures/lead____figures.css);
+@import url(../blocks/lead/__figures/lead__figures.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 /*Блок intro*/
-@import url(../blocks/intro/__table/__table-text/intro__table-text.css);
-@import url(../blocks/intro/__table/__table-number/intro__table-number.css);
+@import url(../blocks/intro/__table-text/intro__table-text.css);
+@import url(../blocks/intro/__table-number/intro__table-number.css);
 @import url(../blocks/intro/__table/intro__table.css);
 @import url(../blocks/intro/__subtitle/intro__subtitle.css);
 @import url(../blocks/intro/__title/intro__title.css);
