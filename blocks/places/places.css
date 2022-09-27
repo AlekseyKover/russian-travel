@@ -1,7 +1,7 @@
 .places {
     max-width: 984px;
-    margin: 0 auto;
-    padding: 92px 148px 92px 148px;
+    padding: 0;
+    margin: 92px auto 92px auto;
     display: flex;
     flex-direction: column;
 }
@@ -25,7 +25,6 @@
 
 @media screen and (max-width:670px) {
     .places {
-        padding: 0;
         width: 100%;
         margin-bottom: 66px;
     }
