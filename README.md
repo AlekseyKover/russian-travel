@@ -4,4 +4,4 @@
 -----------------------------------------
 В проекте использовались grid/flex блоки
 -----------------------------------------
-https://alekseykover.github.io/russian-travel/
+https://alekseykover.github.io/russian-travel//
